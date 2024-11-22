@@ -1,0 +1,24 @@
+Git add .= projede herhangi bir değişiklik olunca "git add ." komutu ile kaydederiz ama commit etmeyiz
+yani gite tam olarak aktarmayız.
+
+git commit -m" Messsage"= git commit ile commit ederiz artık git ile bu değişikliklere vs erişebiliriz.
+
+git init = git initle ilk dosyayı kurarken git de çalışması için yazarız initilazation yani başlatma.
+
+git status= git status komutu ile dosyada bir değişiklik var mı yok mu onu öğreniriz.
+
+git branch = git branch komutu ile ne kadar branch imiz var onu görürüz.
+
+git branch XXX= git branch den sonra yazdığımız kelime ile yeni bir branch oluştururuz.
+
+git switch branch XXX= git switch branch XXX komutu ile XXX branch ine gideriz.
+
+git log= git log komutu commitlerimizi görürüz.
+
+git diff= git diff de dosyada değişiklik yaptıktan sonra git de git add yapmamız lazım ve bu sayede dosyadaki değişiklikleri görürüz.
+
+git diff commit adı commit adı = git diff 234809 3920842 bu komut ile iki commit arasındaki farkı görürsün.
+
+git diff HEAD = komutu ile head deki farkları görürsün.
+
+
