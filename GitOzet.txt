@@ -21,4 +21,11 @@ git diff commit adı commit adı = git diff 234809 3920842 bu komut ile iki comm
 
 git diff HEAD = komutu ile head deki farkları görürsün.
 
+git ignore= komutu ile görünmesini istemediğimiz dosyaları koyabiliriz. ama ilk başta .gitignore adlı bir dosya oluşturmalıyız.
+
+pwd = komutu ile şu an hangi dosya konumunda olduğumuzu gösterir.
+
+
+
+
 
