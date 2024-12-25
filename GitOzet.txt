@@ -3,6 +3,8 @@ yani gite tam olarak aktarmayız.
 
 git commit -m" Messsage"= git commit ile commit ederiz artık git ile bu değişikliklere vs erişebiliriz.
 
+git touch ile yeni bir dosya oluşturulabilir. touch test.css gibi
+
 git init = git initle ilk dosyayı kurarken git de çalışması için yazarız initilazation yani başlatma.
 
 git status= git status komutu ile dosyada bir değişiklik var mı yok mu onu öğreniriz.
@@ -25,6 +27,38 @@ git ignore= komutu ile görünmesini istemediğimiz dosyaları koyabiliriz. ama 
 içine de örneğin DosyanınAdı.Biçimi= Örnek.txt gibi yazdığımızda gizleriz.
 
 pwd = komutu ile şu an hangi dosya konumunda olduğumuzu gösterir.
+
+git mkdir ile yeni bir klasör oluşturulabilir.
+
+**
+
+git push önceden githuba eklediğimiz dosyaları şimdiki hali ile günceller.
+
+githubda compare &pull request merge etmek demek eğer çakışmıyorsa github bunları merge eder fakat bunu git de göstermez git log deyince bişe göstermez.
+
+git branch -r remote branchleri gösterir.
+
+ama git git fetch ile getirebiliriz sonra git status yaptığımızda orda zaten kaç adım geride olduğumuzu yazar ve git pull yaparız.
+git fetch ile kodlara bakarak bi sıkıntı yoksa eğer git pull ederiz
+
+remote mastera geçmek için git branch değil git chechout master yazmalıyız.
+
+ve artık git pull yazarsak aslında git fetch+ git merge demek değişiklikleri al ve merge et git bash ekranında da. böylelikle git ve git hub aynı olur
+
+ama eğer git pull yazmadan önce farklı değişiklik commit yaparsak sonra git pull dersek sonra da git push yazmamız gerekir böylelikle git ve git hub da eşleşir.
+
+ve ayrıca git fetch ile zaten locale dosyaları getirip inceleyebiliriz ama direk git pull yaparsak herşeyi değiştirir.
+**
+
+git clone ile githubda code butonuyla kopyaladığımız adresi yazarak bilgisayarımıza ekleyebiliriz. git clone xxxxx gibi
+
+fork komutu ise kodları bizim hesabımıza kopyalıyor ve biz kodlara ekleme yapabiliyoruz.ve istersek kodun sahibine sende bu eklemeleri koyabilirsin diyebiliriz. contribute ile yaparız. yada fetch leyerek onun yaptığı değişiklilkleri kendimize ekleyebiliriz.
+
+ilk defa projeyi githuba atacağımız zaman github dan git remote add origin httpsxxxx şeklinde kopyalayabiliriz.Sonra git push -u origin master la atarız.
+
+private bir dosyada çalışacaksak eğer collaborators dan iş arkadaşlarımızı seçebiliriz.fakat direk burda push komutunu çalıştırabiliriz bizim yapacağımız değişiklikler karşı taraf ve ya taraflarada yansır.Yani fork komutunu yazmamıza gerek yok.Ama bu yetkimiz var diye direk push komutu yerine farklı branchlerle push larsak daha manıklı olur hata yaparsak düzeltme imkanımız olur.
+
+Readme eklemek için google a github md cheat sheet ile kısayollarına bakabilirsiniz.
 
 
 
